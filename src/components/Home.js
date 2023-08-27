@@ -108,7 +108,22 @@ export function Home() {
                     </Col>
                 </Row>
             </Container>
-            <Jumbotron />
+
+            {/* <Jumbotron /> */}
+
+            <Container style={{ marginBottom : '30px' }}>
+                <Row>
+                    <Col md={7}>
+                        <img src={Slide1} height={400} alt="foto"/>
+                    </Col>
+                    <Col md={5}>
+                        <h2>Web Developer Blog</h2>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum rem temporibus molestias tempore. Necessitatibus, perferendis. Distinctio cupiditate magni laborum possimus incidunt ipsam exercitationem maiores, soluta asperiores quasi illo neque veniam.
+                        </p>
+                    </Col>
+                </Row>
+            </Container>
         </>
     );
 }
