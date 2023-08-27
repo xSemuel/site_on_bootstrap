@@ -1,6 +1,7 @@
 import { Card, Row, Col, Container, Button } from "react-bootstrap";
-import { Slider } from "./Slider";
+import { Slider, Jumbotron } from '../components';
 import Slide1 from '../image/Slide1.jpg'
+
 
 export function Home() {
     return ( 
@@ -107,6 +108,7 @@ export function Home() {
                     </Col>
                 </Row>
             </Container>
+            <Jumbotron />
         </>
     );
 }
