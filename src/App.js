@@ -1,12 +1,11 @@
-import { Button } from 'react-bootstrap';
+import { NaviBar } from './components/NaviBar';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <>
-      <Button variant="primary">Web Dev Blog</Button>
-      
+      <NaviBar />   
     </>
   );
 }
