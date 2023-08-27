@@ -1,7 +1,12 @@
+import { Container } from "react-bootstrap";
+
+
 export function Footer() {
     return ( 
-        <>
-            <h1>Footer Page</h1>
-        </>
+        <Container fluid style={{ backgrounColor: '#212529', color: '#fff'}}> 
+            <Container style={{ display: 'flex', justifyContent: 'center', padding: '10px'}}>
+                <p>Web Developer Blog</p>
+            </Container>
+        </Container>   
     );
 }

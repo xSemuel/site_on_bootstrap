@@ -3,20 +3,18 @@ import { Home, Users, About, NaviBar, Footer } from './components';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+export default function App() {
   return (
     <>
       <BrowserRouter>
-      <NaviBar />  
+        <NaviBar />  
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/users" element={<Users />}/>
           <Route path="/about" element={<About />}/>
-        </Routes>
+        </Routes>  
         <Footer />
       </BrowserRouter> 
     </>
   );
 }
-
-export default App;

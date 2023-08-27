@@ -1,5 +1,5 @@
 import { Card, Row, Col, Container, Button } from "react-bootstrap";
-import { Slider, Jumbotron } from '../components';
+import { Slider } from '../components';
 import Slide1 from '../image/Slide1.jpg'
 
 
