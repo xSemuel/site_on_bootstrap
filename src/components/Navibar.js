@@ -1,5 +1,6 @@
-import { Button, Navbar, Nav, Container, Modal } from "react-bootstrap";
-import { Form, Link } from "react-router-dom";
+import { useState } from 'react';
+import { Button, Navbar, Nav, Container, Modal, Form } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import styled from 'styled-components';
 
 const Styles = styled.div `
@@ -11,8 +12,13 @@ const Styles = styled.div `
 
     }
 `
-
 export function NaviBar() {
+
+    const [ show, setShow ] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
     return ( 
         <>
         <Styles>
