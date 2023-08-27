@@ -1,4 +1,4 @@
-import { Button, Navbar, Nav, Link } from "react-bootstrap";
+import { Button, Navbar, Nav } from "react-bootstrap";
 
 export function NaviBar() {
     return ( 
@@ -8,9 +8,9 @@ export function NaviBar() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"></Navbar.Toggle>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                         <Nav.Link><Link to="/">Home</Link></Nav.Link>
-                         <Nav.Link><Link to="/users">Users</Link></Nav.Link>
-                         <Nav.Link><Link to="/about">About</Link></Nav.Link>
+                        <Nav.Link>Home</Nav.Link>
+                        <Nav.Link>Users</Nav.Link>
+                        <Nav.Lin>About</Nav.Lin>
                     </Nav>
                     <Nav>
                         <Button variant="primary">Log In</Button>

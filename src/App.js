@@ -1,4 +1,4 @@
-import { NaviBar } from './components/NaviBar';
+import { NaviBar } from './components/NaviBar'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
