@@ -7,13 +7,13 @@ export function NaviBar() {
                 <Navbar.Brand>WebDev Blog</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"></Navbar.Toggle>
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto">
+                    <Nav className="me-auto">
                         <Nav.Link>Home</Nav.Link>
                         <Nav.Link>Users</Nav.Link>
-                        <Nav.Lin>About</Nav.Lin>
+                        <Nav.Link>About</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Button variant="primary">Log In</Button>
+                        <Button variant="primary" className="me-2">Log In</Button>
                         <Button variant="primary">Sign out</Button>
                     </Nav>
                 </Navbar.Collapse>
