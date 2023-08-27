@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Home, Users, About, NaviBar } from './components';
+import { Home, Users, About, NaviBar, Footer } from './components';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -13,6 +13,7 @@ function App() {
           <Route path="/users" element={<Users />}/>
           <Route path="/about" element={<About />}/>
         </Routes>
+        <Footer />
       </BrowserRouter> 
     </>
   );
