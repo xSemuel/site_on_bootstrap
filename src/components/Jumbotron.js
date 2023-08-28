@@ -1,4 +1,4 @@
-import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import styled from 'styled-components';
 import Slide1 from '../image/Slide1.jpg'
 
@@ -13,6 +13,8 @@ export function Jumbotron() {
             height: 400px;
             position: relative;
             z-index: -2;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
         }
         .overlay {
             background-color: #000;
@@ -25,17 +27,29 @@ export function Jumbotron() {
             z-index: -1;
 
         }
-    
     `
+
     return (
-        <Styles>
-            <Jumbo fluid className="jumbo">
-                <div className="overlay"></div>
-                    <Container>
-                        <h1>Web Developer</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem itaque, ullam sit, est ea beatae dolor, maiores expedita nam corrupti dolores praesentium neque? Consequatur, animi dolorum? Doloribus reprehenderit fuga unde.</p>
-                    </Container>
-            </Jumbo>
-        </Styles>
+            <Styles>
+                <Container className="container-fluid bg-light text-dark p-5 jumbo md-5">
+                    <div className="overlay">
+                        <Container>
+                            <h1>Web Developer</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem itaque, ullam sit, est ea beatae dolor, maiores expedita nam corrupti dolores praesentium neque? Consequatur, animi dolorum? Doloribus reprehenderit fuga unde.</p>
+                        </Container>
+                    </div>
+                </Container>
+            </Styles>
     )
 }
+
+
+        // <Styles>
+        //     <Jumbo class="container-fluid bg-light text-dark p-5">
+        //         <div className="overlay"></div>
+        //             <Container>
+        //                 <h1>Web Developer</h1>
+        //                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem itaque, ullam sit, est ea beatae dolor, maiores expedita nam corrupti dolores praesentium neque? Consequatur, animi dolorum? Doloribus reprehenderit fuga unde.</p>
+        //             </Container>
+        //     </Jumbo>
+        // </Styles>

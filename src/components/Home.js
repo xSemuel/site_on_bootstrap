@@ -1,5 +1,5 @@
 import { Card, Row, Col, Container, Button } from "react-bootstrap";
-import { Slider } from '../components';
+import { Slider, Jumbotron } from '../components';
 import Slide1 from '../image/Slide1.jpg'
 
 
@@ -109,7 +109,7 @@ export function Home() {
                 </Row>
             </Container>
 
-            {/* <Jumbotron /> */}
+            <Jumbotron />
 
             <Container style={{ marginBottom : '30px' }}>
                 <Row>
