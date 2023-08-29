@@ -2,7 +2,6 @@ import { Container } from 'react-bootstrap';
 import styled from 'styled-components';
 import Slide1 from '../image/Slide1.jpg'
 
-
 export function Jumbotron() {
 
     const Styles = styled.div `
@@ -25,31 +24,17 @@ export function Jumbotron() {
             bottom: 0;
             right: 0;
             z-index: -1;
-
         }
     `
 
     return (
-            <Styles>
-                <Container className="container-fluid bg-light text-dark p-5 jumbo md-5">
-                    <div className="overlay">
-                        <Container>
-                            <h1>Web Developer</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem itaque, ullam sit, est ea beatae dolor, maiores expedita nam corrupti dolores praesentium neque? Consequatur, animi dolorum? Doloribus reprehenderit fuga unde.</p>
-                        </Container>
-                    </div>
-                </Container>
-            </Styles>
+        <Styles>
+            <Container className="container-fluid bg-light text-dark p-5 jumbo md-5">
+                <div className="overlay">
+                    <h1>Web Developer</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem itaque, ullam sit, est ea beatae dolor, maiores expedita nam corrupti dolores praesentium neque? Consequatur, animi dolorum? Doloribus reprehenderit fuga unde.</p>
+                </div>
+            </Container>
+        </Styles>
     )
 }
-
-
-        // <Styles>
-        //     <Jumbo class="container-fluid bg-light text-dark p-5">
-        //         <div className="overlay"></div>
-        //             <Container>
-        //                 <h1>Web Developer</h1>
-        //                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem itaque, ullam sit, est ea beatae dolor, maiores expedita nam corrupti dolores praesentium neque? Consequatur, animi dolorum? Doloribus reprehenderit fuga unde.</p>
-        //             </Container>
-        //     </Jumbo>
-        // </Styles>
