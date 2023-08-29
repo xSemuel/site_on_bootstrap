@@ -109,9 +109,9 @@ export function Home() {
                 </Row>
             </Container>
 
-            <Jumbotron />
+            <Jumbotron style={{paddingTop: '2rem', paddingBottom: '2rem'}}/>
 
-            <Container style={{ marginBottom : '30px' }}>
+            <Container style={{ marginBottom : '2rem' }}>
                 <Row>
                     <Col md={7}>
                         <img src={Slide1} height={400} alt="foto"/>
