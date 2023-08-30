@@ -29,7 +29,7 @@ export function Jumbotron() {
 
     return (
         <Styles>
-            <Container className="container-fluid bg-light text-dark p-5 jumbo md-5">
+            <Container className="container-fluid bg-light text-dark p-5 jumbo md-5 mr-15">
                 <div className="overlay">
                     <h1>Web Developer</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem itaque, ullam sit, est ea beatae dolor, maiores expedita nam corrupti dolores praesentium neque? Consequatur, animi dolorum? Doloribus reprehenderit fuga unde.</p>
